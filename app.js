@@ -12,6 +12,7 @@ var answer1= "alright";
 var answer2 = "its 'alright'";
 var answer3 = 'its "ok" tanzeel';
 
+//objects
 var person = {
     firstName : "John",
     lastName  : "Doe",
@@ -19,3 +20,14 @@ var person = {
     eyeColor  : "blue"
   };
 document.getElementById("demo2").innerHTML= person.firstName + "is" + person.age + "years old."; 
+
+//functions
+var a =5;
+var b = 10;
+
+function myFunction(){
+var z =a*b;
+return z;
+}
+var t = myFunction();
+alert("multiplacation calling function"+t);
